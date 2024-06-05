@@ -1,0 +1,237 @@
+body{
+    padding: 2.5%;
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.300);
+    padding: 2.5%;
+    position: relative;
+    z-index: 2;
+    border-radius: 15px;
+}
+.header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.300);
+    height: 55px;
+}
+.video_block{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    left: 0;
+}
+
+.video_block video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+.profile{
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+}
+.profile img{
+    height: 100%;
+    width: auto;
+}
+.btn_group i{
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.btn_group i:hover{
+    color: #3a6df0;
+}
+.nav-link{
+    color: white;
+    opacity: 0.5;
+    padding-bottom: 20px;
+}
+.nav-link:hover{
+    color: white;
+    opacity: 1;
+}
+.marker_link{
+    position: relative;
+}
+.marker_link span{
+    height: 15px !important;
+    width: 15px !important;
+    font-size: 8px;
+    text-align: start;
+    transition: 0.5s;
+}
+.nav-link.marker_link span{
+    height: 10px !important;
+    width: 10px !important;
+    font-size: 8px;
+    text-align: start;
+    transition: 0.5s;
+}
+.marker_link:hover span{
+    background-color: white !important;
+    color: #3a6df0;
+}
+.dark{
+    background-color: rgba(255, 255, 255, 0.300);
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: greenyellow;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a.active{
+    opacity: 1;
+    border-bottom: 2px solid white;
+}
+.dark_btn{
+    z-index: 5;
+    position: fixed;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+}
+.dark_btn i{
+    color: white;
+    font-size: 20px;
+}
+.back_light{
+    background-color: rgb(255, 253, 253);
+}
+.back_light i{
+    color: black;
+}
+.main_light{
+    background-color: rgba(255, 255, 255, 0.300);
+}
+.text_recolor{
+    color: black !important;
+}
+.link_recolor{
+    color: black !important;
+}
+.link_recolor:hover{
+    color: black !important;
+}
+.title_recolor{
+    color: rgb(36, 36, 36) !important;
+}
+.link_recolor.active{
+    border-bottom: 2px solid black !important;
+}
+.input_recolor{
+    color:#000000 !important;
+    background-color: #cdcdcd !important;
+}
+.search input{
+    background-color:#14162B;
+    color: rgba(255, 255, 255, 0.300);
+    height: 75%;
+    width: 100%;
+    border: none;
+    padding-left: 30px;
+}
+.search i{
+    color: rgba(255, 255, 255, 0.300);
+    position: absolute;
+    top: 14px;
+    left: 20px;
+}
+.search{
+    position: relative;
+}
+.menu_categori{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.menu_categori h5{
+    color:white;
+    margin: 15px 0;
+}
+.menu_categori a{
+    margin:  10px 0;
+    margin-left: 15px;
+    color:rgba(255, 255, 255, 0.848);
+}
+.menu_categori a:hover{
+    opacity: 0.3;
+}
+.left_bar{
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 75vh;
+}
+.right_bar{
+    height: 75vh;
+}
+.right_main{
+    padding: 5px;
+}
+.min_header{
+    display: flex;
+}
+.min_header a, .min_header .group_btn a{
+    font-size: 16px;
+    color: white;
+    opacity: 0.5;
+}
+.scroll{
+    scroll-snap-align: start;
+    height: 75vh;
+}
+.min_header .group_btn{
+    margin-left: 115px;
+}
+.min_header .group_btn a{
+    margin-right: 50px;
+}
+.banner{
+    padding: 2.5%;
+    border-radius: 20px;
+    background: rgb(218,68,231);
+    background: linear-gradient(90deg, rgba(218,68,231,1) 0%, rgba(255,160,76,1) 100%);
+    position: relative;
+    overflow: hidden;
+}
+.banner .col-6{
+    position: relative;
+    z-index: 2;
+}
+.backgraund_image{
+    opacity: 0.3;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}

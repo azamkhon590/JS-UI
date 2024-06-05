@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS|UI</title>
+
+    <!-- Стили -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Стили -->
+</head>
+<body>
+    <!-- https://assets.codepen.io/3364143/7btrrd.mp4 -->
+
+    <div class="video_block">
+        <video width="auto" height="350px" autoplay muted loop src="https://assets.codepen.io/3364143/7btrrd.mp4"></video>
+    </div>
+
+    <main id="main">
+        <div class="dark_btn">
+            <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="row header">
+            <div class="col-2 logo">
+                <div class="circle red"></div>
+                <div class="circle yellow"></div>
+                <div class="circle green"></div>
+            </div>
+            <ul class="nav col-4 align-items-center">
+                <li class="nav-item">
+                    <a href="##" class="nav-link active">Apps</a>
+                </li>
+                <li class="nav-item">
+                    <a href="##" class="nav-link marker_link">You Work
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"> </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="##" class="nav-link">Discover</a>
+                </li>
+                <li class="nav-item">
+                    <a href="##" class="nav-link marker_link">Market
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"> </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="col-3 search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search" id="search">
+            </div>
+            <div class="col-2 d-flex justify-content-between align-items-center btn_group">
+                <i class="fa-solid fa-bell marker_link">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                        3
+                    </span>
+                </i>
+                <i class="fa-solid fa-cloud"></i>
+                <div class="profile">
+                    <img src="assets/image/4619.jpg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+        <section class="panels_container scroll">
+            <div class="row">
+                <div class="col-2 left_bar">
+                    <div class="row flex-column">
+                        <!-- apps -->
+                        <div class="menu_categori">
+                            <h5>Apps</h5>
+                            <a href="##">
+                                <i class="fa-solid fa-border-all"></i>
+                                All apps
+                            </a>
+                            <a href="##">
+                                <i class="fa-solid fa-share"></i>
+                                Updates
+                            </a>
+                        </div>
+                        <!-- categies -->
+                        <div class="menu_categori">
+                            <h5>Categories</h5>
+                            <a href="##">
+                                <i class="fa-solid fa-record-vinyl"></i>
+                                Photography
+                            </a>
+                            <a href="##">
+                                <i class="fa-solid fa-shapes"></i>
+                                Graphic Design
+                            </a>
+                            <a href="##">
+                                <i class="fa-solid fa-video"></i>
+                                Video
+                            </a>
+                            <a href="##">
+                                <i class="fa-solid fa-pen-fancy"></i>
+                                Illustrations
+                            </a>
+                            <a href="##">
+                                <i class="fa-solid fa-building"></i>
+                                UI/UX
+                            </a>
+                            <a href="##">
+                                <i class="fa-solid fa-cube"></i>
+                                3D/AR
+                            </a>
+                        </div>
+                        <!-- fonts -->
+                        <div class="menu_categori">
+                            <h5>Fonts</h5>
+                            <a href="##">
+                                <i class="fa-brands fa-font-awesome"></i>
+                                Manage Fonts
+                            </a>
+                        </div>
+                        <!-- resourses links -->
+                        <div class="menu_categori">
+                            <h5>Resourses Links</h5>
+                            <a href="##">
+                                <i class="fa-brands fa-stackpath"></i>
+                                Stock
+                            </a>
+                            <a href="##">
+                                <i class="fa-solid fa-bars"></i>
+                                Tutorials
+                            </a>
+                            <a href="##">
+                                <i class="fa-solid fa-briefcase"></i>
+                                Portfolio
+                            </a>
+                            <a href="##">
+                                <i class="fa-brands fa-square-behance"></i>
+                                Behance
+                            </a>
+                            <a href="##">
+                                <i class="fa-solid fa-share-from-square"></i>
+                                Social Forum
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 right_bar scroll">
+                    <div class="min_header">
+                        <a href="##">All Apps</a>
+                        <div class="group_btn">
+                            <a href="##" class="active">Desktop</a>
+                            <a href="##">Mobile</a>
+                            <a href="##">Web</a>
+                        </div>
+                    </div>
+                    <div class="right_main">
+                        <div class="banner row">
+                            <img class="backgraund_image" src="assets/image/pngwing.com (1).png" alt="">
+                            <div class="col-6">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam minus ut repudiandae, nemo minima sunt, eaque excepturi quis ratione veniam, obcaecati modi. Quaerat facilis voluptatibus, modi deleniti quae ipsam.</p>
+                                <a href="##" class="group_btn">Start free trial</a>
+                            </div>
+                            <div class="col-6 image">
+                                <!-- <img src="assets/image/pngwing.com.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="group_icon row">
+                            <div class="col-6">
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
